@@ -57,10 +57,12 @@ export const menu = [
   {
     index: 5,
     categoryFrench: "Entrees",
-    name: "",
-    frenchDescription: "",
-    englishDescription: "",
-    price: 16,
+    name: "Chicken César « petite » ou « grande »",
+    frenchDescription: "Poulet, parmesan, croûtons et sa fameuse sauce",
+    englishDescription:
+      "Chicken Caesar salad « small » « large »: chicken, lettuce, bacon, croûtons and the famous sauce",
+    price: 19,
+    price: 29,
     menuMidi: true,
     menuContinue: true,
     menuSoir: false,

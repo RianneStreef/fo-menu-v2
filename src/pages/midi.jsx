@@ -25,8 +25,10 @@ const Midi = () => {
                 </p>
               ) : null}
             </div>
-
-            <span className="price">{menuItem.price.toFixed(2)}€</span>
+            <span className="price">{menuItem.price.toFixed(2)}€</span>{" "}
+            {menuItem.price2 ? (
+              <span className="price">/ {menuItem.price2.toFixed(2)}€</span>
+            ) : null}
           </div>
         </div>
       );
