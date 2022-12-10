@@ -1,0 +1,25 @@
+.menu-buttons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.menu-button {
+  background-color: #000;
+  color: #fff;
+  width: 40vw;
+  height: 40vw;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.menu-button {
+  font-size: 30px;
+  line-height: 40px;
+  text-transform: uppercase;
+  text-align: center;
+}

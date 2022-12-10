@@ -1,0 +1,31 @@
+.menu {
+  margin: 30px;
+}
+
+.menu-category {
+  font-family: "Quicksand", Georgia, serif;
+  font-size: 32px;
+  text-transform: uppercase;
+  margin: 10px 0;
+}
+
+.english-menu-title {
+  color: darkgray;
+  font-size: 20px;
+}
+
+.menu-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.item-name {
+  font-family: "source sans pro", Georgia, serif;
+  font-weight: 900;
+  font-size: 19px;
+  text-transform: uppercase;
+}
+
+.price {
+  font-family: "source sans pro", Georgia, serif;
+}
