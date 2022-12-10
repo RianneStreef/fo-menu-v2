@@ -30,7 +30,7 @@ export const menu = [
   {
     index: 3,
     categoryFrench: "Entrees",
-    name: "Salade Kodiak et sa vinaigrette 30,00 € huile d’olive citron et coriandre",
+    name: "Salade Kodiak et sa vinaigrette huile d’olive citron et coriandre",
     frenchDescription: "Crabe, laitue, avocat",
     englishDescription:
       "Kodiak salad: lemon, coriander, olive oil vinaigrette, crabe lettuce, avocado",

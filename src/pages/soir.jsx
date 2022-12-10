@@ -25,9 +25,7 @@ const Soir = () => {
                 </p>
               ) : null}
             </div>
-
-            <span className="price">{menuItem.price.toFixed(2)}€</span>
-            <span className="price">{menuItem.price2.toFixed(2)}€</span>
+            <span className="price">{menuItem.price.toFixed(2)}€</span>\{" "}
           </div>
         </div>
       );
