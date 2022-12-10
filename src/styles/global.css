@@ -1,6 +1,7 @@
 body {
   margin: 0;
   padding: 0;
+  background-color: #fff;
 }
 
 @font-face {
@@ -52,6 +53,11 @@ a {
 
 a:visited {
   color: #fff;
+}
+
+.header-placeholder {
+  height: 60px;
+  width: 100%;
 }
 
 .header {

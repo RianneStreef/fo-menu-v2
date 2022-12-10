@@ -2,6 +2,8 @@ import React from "react";
 
 import "../styles/menu.css";
 
+import Nav from "../components/Nav";
+
 import { menu } from "../content/menu";
 
 const Midi = () => {
@@ -32,6 +34,8 @@ const Midi = () => {
 
   const antipasti = menu
     .filter((categoryItem) => categoryItem.categoryFrench === "Antipasti")
+    .filter((menuItems) => menuItems.menuMidi === true)
+
     .map((menuItem) => {
       return (
         <div key={menuItem.index} className="menu-item-container">
@@ -56,6 +60,8 @@ const Midi = () => {
 
   const soupes = menu
     .filter((categoryItem) => categoryItem.categoryFrench === "Soupes")
+    .filter((menuItems) => menuItems.menuMidi === true)
+
     .map((menuItem) => {
       return (
         <div key={menuItem.index} className="menu-item-container">
@@ -80,6 +86,8 @@ const Midi = () => {
 
   const pates = menu
     .filter((categoryItem) => categoryItem.categoryFrench === "Pates")
+    .filter((menuItems) => menuItems.menuMidi === true)
+
     .map((menuItem) => {
       return (
         <div key={menuItem.index} className="menu-item-container">
@@ -129,6 +137,8 @@ const Midi = () => {
 
   const poissons = menu
     .filter((categoryItem) => categoryItem.categoryFrench === "Poissons")
+    .filter((menuItems) => menuItems.menuMidi === true)
+
     .map((menuItem) => {
       return (
         <div key={menuItem.index} className="menu-item-container">
@@ -153,6 +163,8 @@ const Midi = () => {
 
   const traditionnel = menu
     .filter((categoryItem) => categoryItem.categoryFrench === "Traditionnel")
+    .filter((menuItems) => menuItems.menuMidi === true)
+
     .map((menuItem) => {
       return (
         <div key={menuItem.index} className="menu-item-container">
@@ -177,6 +189,8 @@ const Midi = () => {
 
   const pizzas = menu
     .filter((categoryItem) => categoryItem.categoryFrench === "Pizza")
+    .filter((menuItems) => menuItems.menuMidi === true)
+
     .map((menuItem) => {
       return (
         <div key={menuItem.index} className="menu-item-container">
@@ -201,6 +215,8 @@ const Midi = () => {
 
   const kids = menu
     .filter((categoryItem) => categoryItem.categoryFrench === "Kids")
+    .filter((menuItems) => menuItems.menuMidi === true)
+
     .map((menuItem) => {
       return (
         <div key={menuItem.index} className="menu-item-container">
@@ -225,6 +241,8 @@ const Midi = () => {
 
   const focaccias = menu
     .filter((categoryItem) => categoryItem.categoryFrench === "Focaccias")
+    .filter((menuItems) => menuItems.menuMidi === true)
+
     .map((menuItem) => {
       return (
         <div key={menuItem.index} className="menu-item-container">
@@ -249,6 +267,8 @@ const Midi = () => {
 
   const desserts = menu
     .filter((categoryItem) => categoryItem.categoryFrench === "Desserts")
+    .filter((menuItems) => menuItems.menuMidi === true)
+
     .map((menuItem) => {
       return (
         <div key={menuItem.index} className="menu-item-container">
@@ -273,6 +293,8 @@ const Midi = () => {
 
   return (
     <div className="menu">
+      <Nav />
+      <div className="header-placeholder" />
       <h4 className="menu-category">
         Salades Entrées{" "}
         <span className="english-menu-title">Salads - Starters</span>
