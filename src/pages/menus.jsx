@@ -185,20 +185,34 @@ const Menus = () => {
         <div className="menu">
           <Nav setShowMenu={setShowMenu} />
           <div className="header-placeholder" />
-          <h4 className="menu-category">
-            Salades Entrées{" "}
-            <span className="english-menu-title">Salads - Starters</span>
-          </h4>
-          {entrees}
+          {menuChoice === "menuMidi" ||
+          menuChoice === "menuContinue" ||
+          menuChoice === "menuSoir" ? (
+            <>
+              <h4 className="menu-category">
+                Salades Entrées{" "}
+                <span className="english-menu-title">Salads - Starters</span>
+              </h4>
+              {entrees}
+            </>
+          ) : null}
           {menuChoice === "menuMidi" || menuChoice === "menuSoir" ? (
             <>
               <h4 className="menu-category">Antipasti</h4> {antipasti}
             </>
           ) : null}
-          <h4 className="menu-category">
-            Soupes <span className="english-menu-title">Soups</span>
-          </h4>
-          {soupes}
+
+          {menuChoice === "menuMidi" ||
+          menuChoice === "menuContinue" ||
+          menuChoice === "menuSoir" ? (
+            <>
+              <h4 className="menu-category">
+                Soupes <span className="english-menu-title">Soups</span>
+              </h4>
+              {soupes}
+            </>
+          ) : null}
+
           {menuChoice === "menuContinue" ? (
             <>
               <h4 className="menu-category">Plats</h4> {plats}
@@ -243,10 +257,18 @@ const Menus = () => {
               {trad}
             </>
           ) : null}
-          <h4 className="menu-category">Pizzas</h4>
-          {pizzas}
-          <h4 className="menu-category">Focaccias</h4>
-          {focaccias}
+
+          {menuChoice === "menuMidi" ||
+          menuChoice === "menuContinue" ||
+          menuChoice === "menuSoir" ? (
+            <>
+              <h4 className="menu-category">Pizzas</h4>
+              {pizzas}
+              <h4 className="menu-category">Focaccias</h4>
+              {focaccias}
+            </>
+          ) : null}
+
           {menuChoice === "Midi" ? (
             <>
               <h4 className="menu-category">Plats Enfants</h4>
@@ -254,10 +276,16 @@ const Menus = () => {
             </>
           ) : null}
 
-          <h4 className="menu-category">
-            Desserts <span className="english-menu-title">Desserts</span>
-          </h4>
-          {desserts}
+          {menuChoice === "menuMidi" ||
+          menuChoice === "menuContinue" ||
+          menuChoice === "menuSoir" ? (
+            <>
+              <h4 className="menu-category">
+                Desserts <span className="english-menu-title">Desserts</span>
+              </h4>
+              {desserts}
+            </>
+          ) : null}
           {menuChoice === "menuContinue" ? (
             <>
               <h4 className="menu-category">
