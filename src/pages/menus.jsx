@@ -190,24 +190,20 @@ const Menus = () => {
             <span className="english-menu-title">Salads - Starters</span>
           </h4>
           {entrees}
-
           {menuChoice === "menuMidi" || menuChoice === "menuSoir" ? (
             <>
               <h4 className="menu-category">Antipasti</h4> {antipasti}
             </>
           ) : null}
-
           <h4 className="menu-category">
             Soupes <span className="english-menu-title">Soups</span>
           </h4>
           {soupes}
-
           {menuChoice === "menuContinue" ? (
             <>
               <h4 className="menu-category">Plats</h4> {plats}
             </>
           ) : null}
-
           {menuChoice === "menuMidi" || menuChoice === "menuSoir" ? (
             <>
               <h4 className="menu-category">
@@ -217,13 +213,11 @@ const Menus = () => {
               {pates}
             </>
           ) : null}
-
           {menuChoice === "menuContinue" ? (
             <>
               <h4 className="menu-category">Snacking</h4> {snack}
             </>
           ) : null}
-
           {menuChoice === "menuMidi" || menuChoice === "menuSoir" ? (
             <>
               <h4 className="menu-category">
@@ -232,7 +226,6 @@ const Menus = () => {
               {viandes}{" "}
             </>
           ) : null}
-
           {menuChoice === "menuMidi" || menuChoice === "menuSoir" ? (
             <>
               <h4 className="menu-category">
@@ -241,7 +234,6 @@ const Menus = () => {
               {poissons}
             </>
           ) : null}
-
           {menuChoice === "menuMidi" || menuChoice === "menuSoir" ? (
             <>
               <h4 className="menu-category">
@@ -251,13 +243,10 @@ const Menus = () => {
               {trad}
             </>
           ) : null}
-
           <h4 className="menu-category">Pizzas</h4>
           {pizzas}
-
           <h4 className="menu-category">Focaccias</h4>
           {focaccias}
-
           {menuChoice === "Midi" ? (
             <>
               <h4 className="menu-category">Plats Enfants</h4>
@@ -265,13 +254,23 @@ const Menus = () => {
             </>
           ) : null}
 
-          <h4 className="menu-category">Desserts</h4>
+          <h4 className="menu-category">
+            Desserts <span className="english-menu-title">Desserts</span>
+          </h4>
           {desserts}
-
           {menuChoice === "menuContinue" ? (
             <>
-              <h4 className="menu-category">Crêpes</h4> {crepes}
-              <h4 className="menu-category">Glaces</h4> {glaces}
+              <h4 className="menu-category">
+                Crêpes{" "}
+                <span className="english-menu-title">
+                  Tout les jours de 8h à 19h
+                </span>
+              </h4>{" "}
+              {crepes}
+              <h4 className="menu-category">
+                Glaces <span className="english-menu-title">Ice Cream</span>
+              </h4>{" "}
+              {glaces}
             </>
           ) : null}
         </div>

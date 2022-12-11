@@ -2,12 +2,20 @@ import React from "react";
 
 const DishDescription = (props) => {
   let menuItem = props;
+
+  console.log(menuItem.menuItem.vegan);
   return (
     <>
       <div key={menuItem.menuItem.index} className="menu-item-container">
         <div className="menu-item">
           <div className="menu-item-description">
-            <p className="item-name">{menuItem.menuItem.name} </p>
+            <p className="item-name">
+              {menuItem.menuItem.name}
+
+              {menuItem.menuItem.vegan === true ? (
+                <span className="vegan">V</span>
+              ) : null}
+            </p>
             {menuItem.menuItem.frenchDescription ? (
               <p>{menuItem.menuItem.frenchDescription}</p>
             ) : null}
