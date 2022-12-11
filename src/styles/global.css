@@ -5,21 +5,20 @@ body {
 }
 
 @font-face {
-  font-family: "Quicksand";
-  src: local("Quicksand"),
-    url(../fonts/Quicksand/Quicksand-VariableFont_wght.ttf) format("truetype");
+  font-family: "Futura";
+  src: local("Futura"),
+    url(../fonts/Futura\ Condensed\ Medium.ttf) format("truetype");
 }
 
 @font-face {
-  font-family: "source sans pro";
-  src: local("source sans pro"),
-    url(../fonts/Source_Sans_Pro/SourceSansPro-Regular.ttf) format("truetype");
+  font-family: "FS Albert";
+  src: local("FS Albert"), url(../fonts/FSAlbert-Regular.ttf) format("truetype");
 }
 
 h1,
 h2,
 h3 {
-  font-family: "Quicksand";
+  font-family: "Futura";
   text-align: center;
 }
 
@@ -42,7 +41,7 @@ h3 {
 }
 
 p {
-  font-family: "source sans pro";
+  font-family: "FS Albert";
 }
 
 a {
@@ -69,9 +68,4 @@ a:visited {
 .logo {
   width: 100px;
   padding: 10px;
-}
-
-.back-icon {
-  width: 30px;
-  margin: 10px;
 }

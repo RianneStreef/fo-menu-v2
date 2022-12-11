@@ -1,13 +1,12 @@
 import React, { useEffect } from "react";
 
-import { Link } from "gatsby";
-
 import "../styles/Nav.css";
 
 import back from "../images/back.svg";
 import homepage from "../images/icon.png";
 
-const Nav = () => {
+const Nav = (props) => {
+  let { setShowMenu } = props;
   useEffect(() => {
     const nav = document.getElementById("nav");
     const scrollUp = "scroll-up";
@@ -36,9 +35,12 @@ const Nav = () => {
 
   return (
     <nav className="nav scroll-up" id="nav">
-      <Link className="back-icon" to="/menus">
-        <img src={back} alt="back" />
-      </Link>
+      <img
+        src={back}
+        alt="back"
+        className="back-icon"
+        onClick={() => setShowMenu(false)}
+      />
       <a href="https://lafaceouest.com/ ">
         <img src={homepage} alt="homepage" className="homepage-icon" />
       </a>

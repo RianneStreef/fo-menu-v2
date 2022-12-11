@@ -23,3 +23,46 @@
   text-transform: uppercase;
   text-align: center;
 }
+.menu {
+  margin: 30px;
+}
+
+.menu-category {
+  font-family: "Futura", Georgia, serif;
+  font-size: 25px;
+  text-transform: uppercase;
+  margin: 10px 0;
+}
+
+.menu-item-description {
+  margin: 20px 0;
+}
+
+.english-menu-title {
+  color: darkgray;
+  font-size: 20px;
+}
+
+.menu-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.item-name {
+  font-family: "FS Albert", Georgia, serif;
+  font-weight: 900;
+  font-size: 19px;
+  text-transform: uppercase;
+  margin-top: 0;
+}
+
+.price {
+  font-family: "FS Albert", Georgia, serif;
+  margin: 20px 0;
+  padding: 0 10px;
+}
+
+.sup-price {
+  margin: 0;
+  color: darkgray;
+}
