@@ -303,6 +303,7 @@ const Menus = () => {
           ) : null}
         </div>
       )}
+      {menuChoice === "menuBoisson" ? <p>Boissons</p> : null}
     </>
   );
 };
