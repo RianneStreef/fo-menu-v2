@@ -395,7 +395,186 @@ export const menu = [
   },
 
   {
+    index: 30,
+    categoryFrench: "Viandes",
+    name: "Côte de veau Metzger Frères",
+    frenchDescription:
+      "Duo de champignons aillés persillés et écrasé de pommes de terre",
+    englishDescription:
+      "Veal rib with a duo of parsley garlic mushrooms and mashed potatoes",
+    price: 52,
+    menuMidi: true,
+    menuContinue: false,
+    menuSoir: true,
+    menuBoission: false,
+  },
+  {
+    index: 31,
+    categoryFrench: "Viandes",
+    name: "Suprême de pintade aux écrevisses",
+    frenchDescription: "Gnocchis et chou romanesco",
+    englishDescription:
+      "Guinea fowl suprême with grayfish: gnocchi and romanesco cabbage",
+    price: 51,
+    menuMidi: false,
+    menuContinue: false,
+    menuSoir: true,
+    menuBoission: false,
+  },
+  {
+    index: 32,
+    categoryFrench: "Viandes",
+    name: "Filet d’agneau persillé et artichauts en deux textures",
+    frenchDescription: "Mousseline d’artichauts, artichaut poivrade et chips",
+    englishDescription:
+      "Parsleyed lamb fillet and artichoke in two textures: artichoke mousseline, poivrade artichoke and chips",
+    price: 49,
+    menuMidi: false,
+    menuContinue: false,
+    menuSoir: true,
+    menuBoission: false,
+  },
+  {
+    index: 33,
+    categoryFrench: "Viandes",
+    name: "Côte de bœuf Salers Metzger Frères",
+    frenchDescription: "Maturée 8 semaines (+/- 500 gr), frites",
+    englishDescription:
+      "Beef rib steak matured 8 weeks Metzger Frères Paris (+-500gr), French fries",
+    price: 58,
+    menuMidi: true,
+    menuContinue: false,
+    menuSoir: true,
+    menuBoission: false,
+  },
+  {
+    index: 34,
+    categoryFrench: "Viandes",
+    name: "Côte de porc Ibérique Metzger Frères",
+    frenchDescription:
+      "Frites de polenta, crème de maïs et pop corn au piment d’Espelette",
+    englishDescription:
+      "Pork chop: polenta fries, corn cream and Espelette pepper popcorn",
+    price: 39,
+    menuMidi: false,
+    menuContinue: false,
+    menuSoir: true,
+    menuBoission: false,
+  },
+  {
     index: 35,
+    categoryFrench: "Viandes",
+    name: "Tagliata di manzo",
+    frenchDescription:
+      "Fines tranches de bœuf Metzger Frères, roquette, parmigiano reggiano, pignons de pain",
+    englishDescription:
+      "Tagliata di manzo: thin slices of Metzger Frères beef, arugula, parmigiano reggiano, pine nuts",
+    price: 49,
+    menuMidi: false,
+    menuContinue: false,
+    menuSoir: true,
+    menuBoission: false,
+  },
+  {
+    index: 36,
+    categoryFrench: "Viandes",
+    name: "Tartare de bœuf",
+    frenchDescription: "Préparé, roquette, parmesan, frites",
+    englishDescription:
+      "Tartar: prepared (+-200gr), arugula, parmigiano reggiano, French fries",
+    price: 32,
+    menuMidi: true,
+    menuContinue: false,
+    menuSoir: false,
+    menuBoission: false,
+  },
+  {
+    index: 37,
+    categoryFrench: "Viandes",
+    name: "Chicken Schnitzel",
+    frenchDescription:
+      "Filet de poulet français frit, écrasé de pommes de terre, gelée de groseilles et sauce Brézain",
+    englishDescription:
+      "Chicken schnitzel: French chicken, cream cheese, currant jelly, mashed potatoes",
+    price: 34,
+    menuMidi: true,
+    menuContinue: false,
+    menuSoir: true,
+    menuBoission: false,
+  },
+
+  {
+    index: 38,
+    categoryFrench: "Poissons",
+    name: "Dos de cabillaud",
+    frenchDescription: "Légumes de saison et fumet de poisson à la citronnelle",
+    englishDescription:
+      "Cod fillet: seasonal vegetables and lemongrass fish stock",
+    price: 39,
+    menuMidi: true,
+    menuContinue: false,
+    menuSoir: true,
+    menuBoission: false,
+  },
+  {
+    index: 39,
+    categoryFrench: "Poissons",
+    name: "Louis Bowl",
+    frenchDescription: "Kasha, avocat, mangue, concombre, radis",
+    englishDescription:
+      "Louis bowl: kasha cereals, avocado, mango, cucumber, radish",
+    price: 24,
+    suppPrice1Title: "Supplément Saumon",
+    suppPrice1: 9,
+    suppPrice2Title: "Supplement Thon",
+    suppPrice2: 9,
+    menuMidi: false,
+    menuContinue: true,
+    menuSoir: false,
+    menuBoission: false,
+  },
+
+  {
+    index: 40,
+    categoryFrench: "Trad",
+    name: "Fondue savoyarde du cœur des Bauges, charcuterie",
+    frenchDescription: "(pour une personne)",
+    englishDescription: "Cheese fondue served with charcuterie (for 1 person)",
+    price: 34,
+    menuMidi: true,
+    menuContinue: false,
+    menuSoir: true,
+    menuBoission: false,
+  },
+  {
+    index: 41,
+    categoryFrench: "Trad",
+    name: "Fondue savoyarde aux cèpes du cœur des Bauges, charcuterie",
+    frenchDescription: "(pour une personne)",
+    englishDescription:
+      "Porcini mushrooms cheese fondue served with charcuterie (for one person)",
+    price: 38,
+    menuMidi: true,
+    menuContinue: false,
+    menuSoir: true,
+    menuBoission: false,
+  },
+  {
+    index: 42,
+    categoryFrench: "Trad",
+    name: "Tartiflette aux truffes",
+    frenchDescription: "Pommes de terre, oignons, lard fumé, reblochon",
+    englishDescription:
+      "Truffles tartiflette: Potatoes, onions, smocked bacon, reblochon cheese",
+    price: 24,
+    menuMidi: false,
+    menuContinue: false,
+    menuSoir: true,
+    menuBoission: false,
+  },
+
+  {
+    index: 43,
     categoryFrench: "Pizza",
     name: "MARGARITA",
     frenchDescription: "Tomate, mozzarella",
@@ -407,7 +586,7 @@ export const menu = [
     menuBoission: false,
   },
   {
-    index: 36,
+    index: 44,
     categoryFrench: "Pizza",
     name: "DIAVOLA",
     frenchDescription: "Tomate, mozzarella, spianata piccante",
@@ -419,7 +598,7 @@ export const menu = [
     menuBoission: false,
   },
   {
-    index: 37,
+    index: 45,
     categoryFrench: "Pizza",
     name: "REINA",
     frenchDescription:
@@ -433,7 +612,7 @@ export const menu = [
     menuBoission: false,
   },
   {
-    index: 38,
+    index: 46,
     categoryFrench: "Pizza",
     name: "NAPOLITANA",
     frenchDescription:
@@ -447,7 +626,7 @@ export const menu = [
     menuBoission: false,
   },
   {
-    index: 39,
+    index: 47,
     categoryFrench: "Pizza",
     name: "HAWAÏENNE",
     frenchDescription: "Tomate, mozzarella, ananas, jambon blanc après cuisson",
@@ -460,7 +639,7 @@ export const menu = [
     menuBoission: false,
   },
   {
-    index: 40,
+    index: 48,
     categoryFrench: "Pizza",
     name: "CAPRESE",
     frenchDescription:
@@ -474,7 +653,7 @@ export const menu = [
     menuBoission: false,
   },
   {
-    index: 41,
+    index: 49,
     categoryFrench: "Pizza",
     name: "ROMANA",
     frenchDescription:
@@ -488,7 +667,7 @@ export const menu = [
     menuBoission: false,
   },
   {
-    index: 42,
+    index: 50,
     categoryFrench: "Pizza",
     name: "TRE FORMAGGI",
     frenchDescription: "Mozzarella, gorgonzola, brézain fumé",
@@ -500,7 +679,7 @@ export const menu = [
     menuBoission: false,
   },
   {
-    index: 43,
+    index: 51,
     categoryFrench: "Pizza",
     name: "ALPAGE",
     frenchDescription: "Mozzarella, reblochon, lardons, oignons",
@@ -512,7 +691,7 @@ export const menu = [
     menuBoission: false,
   },
   {
-    index: 44,
+    index: 52,
     categoryFrench: "Pizza",
     name: "GIANNI",
     frenchDescription:
@@ -526,7 +705,7 @@ export const menu = [
     menuBoission: false,
   },
   {
-    index: 45,
+    index: 53,
     categoryFrench: "Pizza",
     name: "PROSCIUTTO",
     frenchDescription:
@@ -540,7 +719,7 @@ export const menu = [
     menuBoission: false,
   },
   {
-    index: 46,
+    index: 54,
     categoryFrench: "Pizza",
     name: "TARTUFO",
     frenchDescription:
@@ -554,7 +733,7 @@ export const menu = [
     menuBoission: false,
   },
   {
-    index: 47,
+    index: 55,
     categoryFrench: "Pizza",
     name: "EMILIANA",
     frenchDescription:
@@ -568,7 +747,7 @@ export const menu = [
     menuBoission: false,
   },
   {
-    index: 48,
+    index: 56,
     categoryFrench: "Pizza",
     name: "VÉGÉTARIENNE",
     frenchDescription:
@@ -582,7 +761,7 @@ export const menu = [
     menuBoission: false,
   },
   {
-    index: 49,
+    index: 57,
     categoryFrench: "Pizza",
     name: "VIOLA",
     frenchDescription: "Mozzarella, gorgonzola, chou rouge, olives noires",
@@ -595,7 +774,7 @@ export const menu = [
   },
 
   {
-    index: 46,
+    index: 58,
     categoryFrench: "Focaccias",
     name: "Focaccia",
     frenchDescription: "al prosciutto San daniele",
@@ -606,7 +785,7 @@ export const menu = [
     menuBoission: false,
   },
   {
-    index: 47,
+    index: 59,
     categoryFrench: "Focaccias",
     name: "Focaccia di Manu",
     frenchDescription: "Stracciatella di burrata",
@@ -617,7 +796,7 @@ export const menu = [
     menuBoission: false,
   },
   {
-    index: 48,
+    index: 60,
     categoryFrench: "Focaccias",
     name: "Focaccia di Fabio",
     frenchDescription: "Roquette, confiture de figues, vinaigre balsamique",
@@ -630,7 +809,42 @@ export const menu = [
   },
 
   {
-    index: 49,
+    index: 60,
+    categoryFrench: "Enfants",
+    name: "Mini pizza jambon, fromage",
+    englishDescription: "Mini pizza: tomato sauce, mozzarella, ham",
+    price: 13.5,
+    menuMidi: true,
+    menuContinue: false,
+    menuSoir: false,
+    menuBoission: false,
+  },
+  {
+    index: 61,
+    categoryFrench: "Enfants",
+    name: "Steak haché, frites",
+    englishDescription: "Chopped steak & French fries",
+    price: 13.5,
+    menuMidi: true,
+    menuContinue: false,
+    menuSoir: false,
+    menuBoission: false,
+  },
+
+  {
+    index: 62,
+    categoryFrench: "Enfants",
+    name: "Jambon, frites",
+    englishDescription: "Slices of ham & French fries",
+    price: 13.5,
+    menuMidi: true,
+    menuContinue: false,
+    menuSoir: false,
+    menuBoission: false,
+  },
+
+  {
+    index: 64,
     categoryFrench: "Desserts",
     frenchDescription: "Assiette de fromages de Savoie",
     englishDescription: "Regional cheese platter",

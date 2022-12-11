@@ -40,7 +40,7 @@ const DishDescription = (props) => {
           <span className="price">
             {menuItem.menuItem.price.toFixed(2)}€{" "}
             {menuItem.menuItem.price2 ? (
-              <> {menuItem.menuItem.price2.toFixed(2)}€</>
+              <> / {menuItem.menuItem.price2.toFixed(2)}€</>
             ) : null}
           </span>
         </div>
