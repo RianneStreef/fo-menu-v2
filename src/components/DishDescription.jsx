@@ -2,7 +2,6 @@ import React from "react";
 
 const DishDescription = (props) => {
   let menuItem = props;
-  console.log(menuItem.menuItem.name);
   return (
     <>
       <div key={menuItem.menuItem.index} className="menu-item-container">

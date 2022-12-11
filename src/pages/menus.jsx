@@ -19,13 +19,17 @@ const Menus = () => {
     window.scrollTo(0, 0);
   }
 
-  useEffect(() => {}, [menuChoice]);
+  useEffect(() => {
+    console.log(menuChoice);
+  }, [menuChoice]);
+
+  let key = menuChoice;
 
   const entrees = menu
     .filter((categoryItem) => categoryItem.categoryFrench === "Entrees")
-    .filter((menuItems) => menuItems.menuMidi === true)
+    .filter((menuItems) => menuItems[key] === true)
     .map((menuItem) => {
-      return <DishDescription menuItem={menuItem} />;
+      return <DishDescription menuItem={menuItem} key={menuItem.index} />;
     });
 
   const antipasti = menu
@@ -62,7 +66,10 @@ const Menus = () => {
               onClick={() => handleMenuChoice("menuContinue")}
               className="menu-button"
             >
-              <p>Carte Continue</p>
+              <p>
+                Carte <br />
+                Continue
+              </p>
             </button>
             <button
               onClick={() => handleMenuChoice("menuSoir")}
@@ -77,7 +84,9 @@ const Menus = () => {
               onClick={() => handleMenuChoice("menuBoissons")}
               className="menu-button"
             >
-              <p>Carte Boissons</p>
+              <p>
+                Carte <br /> Boissons
+              </p>
             </button>
           </div>
         </div>

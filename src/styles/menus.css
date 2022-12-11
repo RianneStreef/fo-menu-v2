@@ -15,11 +15,8 @@
   justify-content: center;
   align-items: center;
   border-radius: 10px;
-}
-
-.menu-button {
-  font-size: 30px;
-  line-height: 40px;
+  font-size: 20px;
+  line-height: 30px;
   text-transform: uppercase;
   text-align: center;
 }
@@ -52,7 +49,6 @@
   font-family: "FS Albert", Georgia, serif;
   font-weight: 900;
   font-size: 19px;
-  text-transform: uppercase;
   margin-top: 0;
 }
 
