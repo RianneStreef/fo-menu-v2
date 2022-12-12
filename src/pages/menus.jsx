@@ -170,9 +170,9 @@ const Menus = () => {
               href="https://lafaceouest.com/"
               className="menu-button homepage-button"
             >
-              <p className="homepage-p">Retour</p>
-
               <img src={house} alt="homepage" className="house-icon" />
+
+              <p className="homepage-p">Retour</p>
             </a>
           </div>
         </div>
