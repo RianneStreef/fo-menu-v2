@@ -3,6 +3,7 @@ import React, { useState, useEffect } from "react";
 import "../styles/menus.css";
 
 import logo from "../images/icon.png";
+import house from "../images/house.png";
 
 import Nav from "../components/Nav";
 import DishDescription from "../components/DishDescription";
@@ -165,10 +166,13 @@ const Menus = () => {
                 <br /> Soir
               </p>
             </button>
-            <a href="https://lafaceouest.com/" className="menu-button">
-              <p>
-                Retour <br /> Site Internet
-              </p>
+            <a
+              href="https://lafaceouest.com/"
+              className="menu-button homepage-button"
+            >
+              <p className="homepage-p">Retour</p>
+
+              <img src={house} alt="homepage" className="house-icon" />
             </a>
           </div>
         </div>

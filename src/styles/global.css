@@ -69,3 +69,18 @@ a:visited {
   width: 95%;
   padding: 10px;
 }
+
+.homepage-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.homepage-p {
+  margin: 0;
+}
+
+.house-icon {
+  width: 50px;
+}
