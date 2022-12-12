@@ -1175,7 +1175,7 @@ export const menu = [
     menuBoission: false,
   },
   {
-    index: 91,
+    index: 94,
     categoryFrench: "Snack",
     name: "Sandwich Jambon, beurre",
     englishDescription: "Ham, butter sandwich",
@@ -1186,7 +1186,7 @@ export const menu = [
     menuBoission: false,
   },
   {
-    index: 91,
+    index: 95,
     categoryFrench: "Snack",
     name: "Tartine Croûton Savoyard",
     frenchDescription: "Jambon cru, fromage à raclette toasté",

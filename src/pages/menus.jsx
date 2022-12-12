@@ -2,8 +2,7 @@ import React, { useState, useEffect } from "react";
 
 import "../styles/menus.css";
 
-import logo from "../images/logo-white.png";
-import back from "../images/homepage.png";
+import logo from "../images/icon.png";
 
 import Nav from "../components/Nav";
 import DishDescription from "../components/DishDescription";
@@ -16,10 +15,13 @@ const Menus = () => {
   function handleMenuChoice(menu) {
     setMenuChoice(menu);
     setShowMenu(true);
+    console.log(menuChoice);
     window.scrollTo(0, 0);
   }
 
-  useEffect(() => {}, [menuChoice]);
+  useEffect(() => {
+    console.log(menuChoice);
+  }, [menuChoice]);
 
   let key = menuChoice;
 
@@ -132,14 +134,9 @@ const Menus = () => {
     <>
       {!showMenu ? (
         <div className="menu-choice">
-          <div className="header">
-            <img src={logo} alt="" className="logo" />
-            <a href="https://lafaceouest.com">
-              <img src={back} alt="Back to homepage" className="back-icon" />
-            </a>
+          <div className="logo-container">
+            <img src={logo} alt="" className="logo" /> <h2>vous propose</h2>
           </div>
-          <h1>La Face Ouest</h1>
-          <h2>Restaurant Val Thorens</h2>
           <h3>Nos cartes</h3>
           <div className="menu-buttons">
             <button
@@ -169,14 +166,11 @@ const Menus = () => {
                 <br /> Soir
               </p>
             </button>
-            <button
-              onClick={() => handleMenuChoice("menuBoissons")}
-              className="menu-button"
-            >
+            <a href="https://lafaceouest.com/" className="menu-button">
               <p>
-                Carte <br /> Boissons
+                Retour <br /> Site Internet
               </p>
-            </button>
+            </a>
           </div>
         </div>
       ) : (
@@ -305,7 +299,6 @@ const Menus = () => {
           ) : null}
         </div>
       )}
-      {menuChoice === "menuBoisson" ? <p>Boissons</p> : null}
     </>
   );
 };

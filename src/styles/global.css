@@ -58,14 +58,14 @@ a:visited {
   width: 100%;
 }
 
-.header {
-  background-color: #000;
+.logo-container {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
 }
 
 .logo {
-  width: 100px;
+  width: 95%;
   padding: 10px;
 }
