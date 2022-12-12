@@ -19,9 +19,7 @@ const Menus = () => {
     window.scrollTo(0, 0);
   }
 
-  useEffect(() => {
-    console.log(menuChoice);
-  }, [menuChoice]);
+  useEffect(() => {}, [menuChoice]);
 
   let key = menuChoice;
 

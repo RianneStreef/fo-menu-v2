@@ -845,7 +845,7 @@ export const menu = [
   {
     index: 64,
     categoryFrench: "Desserts",
-    frenchDescription: "Assiette de fromages de Savoie",
+    name: "Assiette de fromages de Savoie",
     englishDescription: "Regional cheese platter",
     price: 14,
     menuMidi: true,
@@ -856,8 +856,7 @@ export const menu = [
   {
     index: 65,
     categoryFrench: "Desserts",
-    frenchDescription:
-      "Vieux gouda accompagné de sa confiture de prunes et d’un verre de vin blanc d’Arbois",
+    name: "Vieux gouda accompagné de sa confiture de prunes et d’un verre de vin blanc d’Arbois",
     englishDescription:
       "Aged gouda served with plum jam and a glass of Arbois white wine",
     price: 15,
@@ -869,8 +868,7 @@ export const menu = [
   {
     index: 66,
     categoryFrench: "Desserts",
-    frenchDescription:
-      "Stilton accompagné de sa confiture de poires et d’un verre de Porto rouge",
+    name: "Stilton accompagné de sa confiture de poires et d’un verre de Porto rouge",
     englishDescription: "Stilton with pear jam and a glass of Porto",
     price: 15,
     menuMidi: true,
@@ -881,8 +879,7 @@ export const menu = [
   {
     index: 67,
     categoryFrench: "Desserts",
-    frenchDescription:
-      "Affogato : Boule de glace vanille noyé dans un expresso",
+    name: "Affogato : Boule de glace vanille noyé dans un expresso",
     englishDescription: "Vanilla ice cream dropped in an expresso",
     price: 8,
     menuMidi: true,
@@ -893,7 +890,7 @@ export const menu = [
   {
     index: 68,
     categoryFrench: "Desserts",
-    frenchDescription: "Café gola : Café et une gourmandise du moment",
+    name: "Café gola : Café et une gourmandise du moment",
     englishDescription: "A coffee with a delicacy of the moment",
     price: 9,
     menuMidi: true,
@@ -904,7 +901,7 @@ export const menu = [
   {
     index: 69,
     categoryFrench: "Desserts",
-    frenchDescription: "Tartelette chocolat orange",
+    name: "Tartelette chocolat orange",
     englishDescription: "Orange, chocolate tartlet",
     price: 13,
     menuMidi: true,
@@ -915,7 +912,7 @@ export const menu = [
   {
     index: 70,
     categoryFrench: "Desserts",
-    frenchDescription: "Paris-Brest",
+    name: "Paris-Brest",
     englishDescription: "The famous Paris-Brest",
     price: 12,
     menuMidi: true,
@@ -926,7 +923,7 @@ export const menu = [
   {
     index: 71,
     categoryFrench: "Desserts",
-    frenchDescription: "Cheesecake caramel au beurre salé",
+    name: "Cheesecake caramel au beurre salé",
     englishDescription: "Salted butter caramel cheese cake",
     price: 12,
     menuMidi: true,
@@ -937,7 +934,7 @@ export const menu = [
   {
     index: 72,
     categoryFrench: "Desserts",
-    frenchDescription: "Roulé pistache framboise",
+    name: "Roulé pistache framboise",
     englishDescription: "Raspberry pistacchio roll",
     price: 13,
     menuMidi: true,
@@ -948,7 +945,7 @@ export const menu = [
   {
     index: 73,
     categoryFrench: "Desserts",
-    frenchDescription: "Tiramisu",
+    name: "Tiramisu",
     englishDescription: "Tiramisu",
     price: 12,
     menuMidi: true,
@@ -959,7 +956,7 @@ export const menu = [
   {
     index: 74,
     categoryFrench: "Desserts",
-    frenchDescription: "Mont-Blanc et compotée de myrtilles",
+    name: "Mont-Blanc et compotée de myrtilles",
     englishDescription: "Montblanc and blueberry compote",
     price: 13,
     menuMidi: true,
@@ -970,7 +967,7 @@ export const menu = [
   {
     index: 75,
     categoryFrench: "Desserts",
-    frenchDescription: "Pavlova fruits rouges",
+    name: "Pavlova fruits rouges",
     englishDescription: "Red fruit Pavlova",
     price: 12,
     menuMidi: true,
@@ -982,7 +979,7 @@ export const menu = [
   {
     index: 76,
     categoryFrench: "Crepes",
-    frenchDescription: "Sucre",
+    name: "Sucre",
     englishDescription: "Sugar",
     price: 7.3,
     menuMidi: false,
@@ -993,7 +990,7 @@ export const menu = [
   {
     index: 77,
     categoryFrench: "Crepes",
-    frenchDescription: "Nutella",
+    name: "Nutella",
     price: 8.2,
     menuMidi: false,
     menuContinue: true,
@@ -1003,7 +1000,7 @@ export const menu = [
   {
     index: 78,
     categoryFrench: "Crepes",
-    frenchDescription: "Citron",
+    name: "Citron",
     englishDescription: "Lemon",
     price: 7.5,
     menuMidi: false,
@@ -1014,7 +1011,7 @@ export const menu = [
   {
     index: 79,
     categoryFrench: "Crepes",
-    frenchDescription: "Confiture : fraise, abricot, myrtille",
+    name: "Confiture : fraise, abricot, myrtille",
     englishDescription: "Strawberry, apricot, blueberry",
     price: 7.5,
     menuMidi: false,
@@ -1025,7 +1022,7 @@ export const menu = [
   {
     index: 80,
     categoryFrench: "Crepes",
-    frenchDescription: "Miel",
+    name: "Miel",
     englishDescription: "Honey",
     price: 7.6,
     menuMidi: false,
@@ -1036,7 +1033,7 @@ export const menu = [
   {
     index: 81,
     categoryFrench: "Crepes",
-    frenchDescription: "Chantilly",
+    name: "Chantilly",
     englishDescription: "Whipped cream",
     price: 7.7,
     menuMidi: false,
@@ -1047,7 +1044,7 @@ export const menu = [
   {
     index: 82,
     categoryFrench: "Crepes",
-    frenchDescription: "Crème de marrons",
+    name: "Crème de marrons",
     englishDescription: "Chestnut cream",
     price: 7.7,
     menuMidi: false,
@@ -1058,7 +1055,7 @@ export const menu = [
   {
     index: 83,
     categoryFrench: "Crepes",
-    frenchDescription: "Chocolat",
+    name: "Chocolat",
     englishDescription: "Black chocolate",
     price: 7.7,
     menuMidi: false,
@@ -1069,7 +1066,7 @@ export const menu = [
   {
     index: 84,
     categoryFrench: "Crepes",
-    frenchDescription: "Sirop d’érable",
+    name: "Sirop d’érable",
     englishDescription: "Maple syrup",
     price: 8.6,
     menuMidi: false,
@@ -1080,7 +1077,7 @@ export const menu = [
   {
     index: 85,
     categoryFrench: "Crepes",
-    frenchDescription: "Vanoise : Chocolat, chantilly",
+    name: "Vanoise : Chocolat, chantilly",
     englishDescription: "Black chocolate, whipped cream",
     price: 9.9,
     menuMidi: false,
@@ -1091,7 +1088,7 @@ export const menu = [
   {
     index: 86,
     categoryFrench: "Crepes",
-    frenchDescription: "La Face : Chocolat, banane, chantilly",
+    name: "La Face : Chocolat, banane, chantilly",
     englishDescription: "Black chocolate, banana whipped cream",
     price: 10.3,
     menuMidi: false,
@@ -1102,7 +1099,7 @@ export const menu = [
   {
     index: 87,
     categoryFrench: "Crepes",
-    frenchDescription: "Gianni : Nutella, banane, chantilly",
+    name: "Gianni : Nutella, banane, chantilly",
     englishDescription: "Nutella, banana, whipped cream",
     price: 10.6,
     menuMidi: false,
@@ -1114,7 +1111,7 @@ export const menu = [
   {
     index: 88,
     categoryFrench: "Glaces",
-    frenchDescription: "Coupe 1 boule au choix",
+    name: "Coupe 1 boule au choix",
     price: 5,
     menuMidi: false,
     menuContinue: true,
@@ -1124,7 +1121,7 @@ export const menu = [
   {
     index: 89,
     categoryFrench: "Glaces",
-    frenchDescription: "Coupe 2 boules au choix",
+    name: "Coupe 2 boules au choix",
     suppPrice1: 6.5,
     menuMidi: false,
     menuContinue: true,
@@ -1134,10 +1131,67 @@ export const menu = [
   {
     index: 90,
     categoryFrench: "Glaces",
-    frenchDescription: "Coupe 3 boules au choix",
+    name: "Coupe 3 boules au choix",
     price: 7,
     suppPriceTitle: "Supplément chantilly",
     suppPrice1: 1.5,
+    menuMidi: false,
+    menuContinue: true,
+    menuSoir: false,
+    menuBoission: false,
+  },
+
+  {
+    index: 91,
+    categoryFrench: "Snack",
+    name: "Frites",
+    englishDescription: "French fries",
+    price: 7,
+    menuMidi: false,
+    menuContinue: true,
+    menuSoir: false,
+    menuBoission: false,
+  },
+  {
+    index: 92,
+    categoryFrench: "Snack",
+    name: "Sandwich jambon, fromage, beurre, cornichon",
+    englishDescription: "Ham, cheese, butter, pickles sandwich",
+    price: 9,
+    menuMidi: false,
+    menuContinue: true,
+    menuSoir: false,
+    menuBoission: false,
+  },
+  {
+    index: 93,
+    categoryFrench: "Snack",
+    name: "Sandwich Fromage, beurre",
+    englishDescription: "Cheese, butter sandwich",
+    price: 7,
+    menuMidi: false,
+    menuContinue: true,
+    menuSoir: false,
+    menuBoission: false,
+  },
+  {
+    index: 91,
+    categoryFrench: "Snack",
+    name: "Sandwich Jambon, beurre",
+    englishDescription: "Ham, butter sandwich",
+    price: 7,
+    menuMidi: false,
+    menuContinue: true,
+    menuSoir: false,
+    menuBoission: false,
+  },
+  {
+    index: 91,
+    categoryFrench: "Snack",
+    name: "Tartine Croûton Savoyard",
+    frenchDescription: "Jambon cru, fromage à raclette toasté",
+    englishDescription: "Savoyard toast: regional ham, raclette cheese toasted",
+    price: 13,
     menuMidi: false,
     menuContinue: true,
     menuSoir: false,
