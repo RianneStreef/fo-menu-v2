@@ -15,7 +15,6 @@ const Menus = () => {
   function handleMenuChoice(menu) {
     setMenuChoice(menu);
     setShowMenu(true);
-    console.log(menuChoice);
     window.scrollTo(0, 0);
   }
 
