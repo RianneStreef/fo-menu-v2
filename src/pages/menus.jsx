@@ -299,6 +299,10 @@ const Menus = () => {
                 Glaces <span className="english-menu-title">Ice Cream</span>
               </h4>{" "}
               {glaces}
+              <p className="item-name">Parfums glaces: </p>
+              <p>Vanille, chocolat, pistache, café</p>
+              <p className="item-name">Parfums sorbets: </p>{" "}
+              <p>Fraise, cassis, citron vert</p>
             </>
           ) : null}
         </div>

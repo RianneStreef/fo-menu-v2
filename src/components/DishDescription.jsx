@@ -3,15 +3,14 @@ import React from "react";
 const DishDescription = (props) => {
   let menuItem = props;
 
-  console.log(menuItem.menuItem.vegan);
+  console.log(menuItem.menuItem.name);
   return (
     <>
       <div key={menuItem.menuItem.index} className="menu-item-container">
         <div className="menu-item">
           <div className="menu-item-description">
             <p className="item-name">
-              {menuItem.menuItem.name}
-
+              {menuItem.menuItem.name ? <>{menuItem.menuItem.name}</> : null}
               {menuItem.menuItem.vegan === true ? (
                 <span className="vegan">V</span>
               ) : null}
@@ -38,7 +37,9 @@ const DishDescription = (props) => {
             ) : null}
           </div>
           <span className="price">
-            {menuItem.menuItem.price.toFixed(2)}€{" "}
+            {menuItem.menuItem.price ? (
+              <>{menuItem.menuItem.price.toFixed(2)}€ </>
+            ) : null}
             {menuItem.menuItem.price2 ? (
               <> / {menuItem.menuItem.price2.toFixed(2)}€</>
             ) : null}
