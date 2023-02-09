@@ -302,6 +302,14 @@ const Menus = () => {
           ) : null}
         </div>
       )}
+      <div className="footer">
+        <p>
+          © La Face Ouest - 2023. - Tous droits réservés{" "}
+          <a href="https://vts-webdesign.com" target="_blank">
+            - VTS Webdesign
+          </a>
+        </p>
+      </div>
     </>
   );
 };
